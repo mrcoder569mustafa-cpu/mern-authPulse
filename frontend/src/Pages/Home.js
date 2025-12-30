@@ -27,7 +27,7 @@ function Home() {
       const token = localStorage.getItem('token');
       if (!token) return;
 
-      const response = await fetch('http://localhost:5000/products', {
+      const response = await fetch('https://mern-auth-pulse-api.vercel.app/products', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
