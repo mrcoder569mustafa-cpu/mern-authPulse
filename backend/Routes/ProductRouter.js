@@ -1,5 +1,5 @@
 import express from 'express';
-import ensureAuthenticated from '../Middlewares/Auth.js'; 
+import ensureAuthenticated from '../Middlewares/auth.js'; 
 const router = express.Router(); 
 router.get('/', ensureAuthenticated, (req, res) => {
     console.log('------ Logged In User Detail ------', req.user);
