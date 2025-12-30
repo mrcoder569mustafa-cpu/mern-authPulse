@@ -1,4 +1,4 @@
 
-# mern-auth-LoginSignup
->>>>>>> 336444baba5fc99d74ef7fa5767ff29e50e69aff
+# mern-authPulse
+>>>>>>> b3e16ffe7222e92de8618a5328f5ce270f69726a
 mern-auth login signup Authentication 
